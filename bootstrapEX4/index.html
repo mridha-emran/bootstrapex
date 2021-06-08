@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>bootstrap-ex2</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">homepage</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            team
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Vincent</a></li>
+            <li><a class="dropdown-item" href="#">Bératrice</a></li>
+            <li><a class="dropdown-item" href="#">Rosita</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#"></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section class="container-md">
+  <div class="alert alert-danger d-flex align-items-center" role="alert">
+    <svg class="bi flex-shrink-0 me-2" width="27" height="20" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+    <div>
+      une erreur serverest survenue. veulliez rafralichir la page ou réésssayer plus tard
+    </div>
+  </div>
+  </section>
+  <section class="container-md bg-light">
+      <div class="row py-5">
+          <div class="col-sm-6">
+            <h1>hi!my name is!</h1>
+          </div>
+
+         <div class="col-sm-6">
+            <img src="/img/eminem.jpg" class=" w-25 rounded-circle" alt="">
+            <h3>slim shady</h3>
+          </div>
+
+      </div>
+  </section>
+
+  <!-- Button trigger modal -->
+
+  <div class="border border-light p-3 mb-4">
+
+    <div class="text-center">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        signup newsletter
+      </button>
+    </div>
+
+  </div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">newsletter</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">email</div>
+          </div>
+          <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="ex@lala.emar">
+        </div>
+          
+        
+      </div>
+      
+        <div class="border border-light p-2"></div>
+
+          <div class="text-start">
+            <button type="button" class="btn btn-primary">S'abonne</button>
+          </div>
+      
+        </div>
+        
+    
+    </div>
+  </div>
+</div>
+   
+    <section class="container-md">
+      
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card border-0">
+            
+            <div class="card-body">
+              <h5 class="card-title">pllifiction</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, eius omnis amet iste ipsum adipisci, maxime aut quas cum asperiores fuga nulla, labore ut corrupti odit similique a aperiam quaerat!.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card border-0">
+          
+            <div class="card-body">
+              <h5 class="card-title">action</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae aliquid esse ut, consectetur quas aspernatur harum omnis iste quae explicabo nobis aut dicta animi eius incidunt qui officiis cum vero..</p>
+            </div>
+          </div>
+        </div>
+       
+        <div class="col">
+          <div class="card border-0">
+            
+            <div class="card-body">
+              <h5 class="card-title">analysis</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum praesentium, ratione nobis deleniti adipisci aspernatur odio vero commodi quia repudiandae sapiente. Nisi quae placeat quibusdam sequi incidunt mollitia assumenda rem..</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+   
+
+    
+    <script src="/js/bootstrap.js"></script>
+</body>
+</html>
